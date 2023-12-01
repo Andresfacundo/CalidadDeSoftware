@@ -328,7 +328,7 @@ footer{
 
     .box-navbar{
         visibility: hidden;
-        padding: 1rem 3rem 1rem 3rem;
+        padding: 1rem 2.8rem 1rem 2.8rem;
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -351,6 +351,7 @@ footer{
     }
     .box1 p{
         font-size: 1.1rem;
+        padding: 0 4rem 0 4rem;
 
     }
     .box2{
@@ -363,6 +364,7 @@ footer{
     }
     .box-content p{
         font-size: 1.2rem;
+            padding: 0 4rem 0 4rem;
     }
     .fa-regular{
         padding-top: 2rem;
@@ -373,7 +375,10 @@ footer{
     }
     .box-portfolio{
         flex-direction: column;
-        gap: 2rem;
+        gap: 2rem   ;
+    }
+    .box-portfolio ul{
+        gap: 1rem;
     }
     /* ---------------------section iframe -----------------*/
     .content-frame{
